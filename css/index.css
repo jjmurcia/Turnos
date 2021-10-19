@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: brown;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+.head,
+.section,
+.article,
+.footer {
+    margin-top: 5rem;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1,
+p,
+label {
+    color: white;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
