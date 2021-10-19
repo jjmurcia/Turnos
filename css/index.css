@@ -35,9 +35,19 @@ label {
     color: white;
 }
 
+img {
+    margin-left: 3rem;
+}
+
+label {
+    float: left;
+    margin-right: 3rem;
+}
+
 input {
     width: 200px;
     height: 25px;
+    float: right;
 }
 
 button {
@@ -45,4 +55,15 @@ button {
     height: 50px;
     font-size: 20px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }

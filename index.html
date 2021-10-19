@@ -19,28 +19,28 @@
             <p>Ingrese los datos solicitados a continuacion para generar su turno</p>
         </div>
         <div class="article">
-            <form action="">
+            <form action="" id="form" name="form" method="get">
                 <label for="">Tipo de ID</label>
-                <input type="number" minlength="10" maxlength="10">
+                <input id="tipoId" type="text" minlength="10" maxlength="10" required autofocus>
                 <br>
                 <label for="">No. de ID</label>
-                <input type="number">
+                <input id="numeroId" type="text" minlength="10" maxlength="10" required>
                 <br>
                 <label for="">Nombre</label>
-                <input type="text">
+                <input id="nombre" type="text" maxlength="20" required>
                 <br>
                 <label for="">Correo</label>
-                <input type="email">
+                <input id="correo" type="email" required>
                 <br>
                 <label for="">Celular</label>
-                <input type="number" min="10" max="10">
+                <input id="celular" type="text" minlength="10" maxlength="10" size="40" required>
                 <br>
                 <label for="">Edad</label>
-                <input type="number" min="1" max="2">
+                <input id="edad" type="text" min="1" maxlength="2" required>
             </form>
         </div>
         <div class="footer">
-            <button onclick="start">Ingresar</button>
+            <button onclick="start();" id="saveDataBtn">Ingresar</button>
         </div>
     </div>
     <script src="js/index.js"></script>
